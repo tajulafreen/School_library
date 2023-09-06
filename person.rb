@@ -1,5 +1,5 @@
 class Person
-  require './nameable.rb'
+  require './nameable'
 
 class Person < Nameable
   attr_accessor :name, :age
@@ -32,4 +32,5 @@ class Person < Nameable
     # Code to generate a unique ID
     rand(1..1000)
   end
+ end
 end

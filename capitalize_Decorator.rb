@@ -1,4 +1,4 @@
-require './baseDecorator'
+require './base_Decorator'
 
 class CapitalizeDecorator < BaseDecorator
   def correct_name
