@@ -68,9 +68,9 @@ Clone this repository to your desired folder:
 
 👤 **Yonas Henok**
 
-- GitHub: [@YonasHenok](https://github.com/tajulafreen)
-- Twitter: [@YonasHenok3](https://www.twitter.com/tajulafreen)
-- LinkedIn: [Yonas Henok](https://www.linkedin.com/in/tajul-afreen/)
+- GitHub: [Tajul Afreen](https://github.com/tajulafreen)
+- Twitter: [Tajul Afreen](https://www.twitter.com/tajulafreen)
+- LinkedIn: [Tajul Afreen](https://www.linkedin.com/in/tajul-afreen/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
