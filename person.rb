@@ -1,5 +1,5 @@
 class Person
-  require './nameable'
+  require './nameable.rb'
 
   class Person < Nameable
     attr_accessor :name, :age
