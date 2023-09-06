@@ -1,14 +1,10 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <br/>
 
-  <h3><b>OOP School Library</b></h3>
+  <h3><b>School_library</b></h3>
 
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -17,73 +13,72 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
+- [👤 Author](#author)
+- - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
-# 📖 [OOP School Library] <a name="about-project"></a>
-
-**[OOP School Library]** Ruby School is a simple object-oriented program that models a school with students and teachers. It provides three classes:
-
-Person: the base class that represents a person with a name, an age, and an ID. It has a method to check if the person can use the school services based on their age and parent permission.
-Student: a subclass of Person that adds a classroom attribute and a method to play hooky.
-Teacher: a subclass of Person that adds a specialization attribute and overrides the can_use_services? method to always return true.
-The program demonstrates inheritance, encapsulation, and polymorphism in Ruby, and provides a simple API to create and manipulate persons, students, and teachers. It can be extended with additional features, such as more methods or attributes for the classes, or a user interface to interact with the program.
+# 📖 school_library <a name="about-project"></a>
 
 ## 🛠 Built With <a name="built-with"></a>
+
 ### Tech Stack <a name="tech-stack"></a>
 
-- **Ruby**
-
-<!-- Features -->
+<details>
+<summary>RUBY</summary>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
-- **[Provides a Person class with basic attributes and methods to check if a person can use school services.]**
-- **[Provides a Student class that inherits from Person and adds a classroom attribute and a method to play hooky.]**
-- **[Provides a Teacher class that inherits from Person and adds a specialization attribute and overrides the can_use_services? method to always return true.]**
-- **[Demonstrates inheritance, encapsulation, and polymorphism in Ruby.]**
-- **[Provides a simple API to create and manipulate persons, students, and teachers.]**
-- **[Can be extended with additional features, such as more methods or attributes for the classes, or a user interface to interact with the program.]**
-
-
-
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-
-👤 **Zohra Neda**
-
-- GitHub: [@zohra-neda](https://github.com/tajulafreen)
-- Twitter: [@zohra_neda](https://twitter.com/tajulafreen)
-- LinkedIn: [zohra-neda](https://www.linkedin.com/in/tajulafreen)
+- **Module and Class**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```
+  git clone https://github.com/tajulafreen/School_library.git
+  cd School_library
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👤 Author <a name="author"></a>
+
+👤 **Yonas Henok**
+
+- GitHub: [@YonasHenok](https://github.com/tajulafreen)
+- Twitter: [@YonasHenok3](https://www.twitter.com/tajulafreen)
+- LinkedIn: [Yonas Henok](https://www.linkedin.com/in/tajul-afreen/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- [ ] **[Add more and complex classes ]**
+- [ ] **Add More Functionality**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -93,24 +88,32 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
-
-If you like this project give ⭐️
+If you like this project please give it a Start ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to express my gratitude to Microverse for initiating the idea behind this project.
+- Project from [Microverse](https://www.microverse.org/) Ruby, Databases & Interviewing Module.
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedbacks.
+- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
+## ❓ FAQ <a name="faq"></a>
+
+- **Can I Fork it and Imporove on it**
+
+  - Yes, You can, feel free.
+
+- **Can I improve the repository, and my changes will be accepted if they are good?**
+
+  - Yes please, nice ideas are welcome, please.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
