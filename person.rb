@@ -1,8 +1,8 @@
 require './nameable'
-require './rental.rb'
+require './rental'
 
 class Person < Nameable
-  attr_accessor :name, :age, :rental.
+  attr_accessor :name, :age, :rental
   attr_reader :id
 
   def initialize(age, name = 'Unknown', parent_permission: true)
@@ -36,5 +36,4 @@ class Person < Nameable
     # Code to generate a unique ID
     rand(1..1000)
   end
-
 end
