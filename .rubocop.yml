@@ -32,7 +32,7 @@ Style/DefWithParentheses:
   Enabled: false
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
-Style/EndOfLine:
+Layout/EndOfLine:
   EnforcedStyle: crlf
 
 Layout/HashAlignment:
