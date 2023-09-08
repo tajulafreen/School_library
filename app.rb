@@ -1,3 +1,4 @@
+require 'date'
 require './person'
 require './book'
 require './classroom'
@@ -61,10 +62,17 @@ class App
       puts "#{index}) [#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
     end
     person_number = gets.chomp.to_i
-    print 'Date: '
-    date = gets.chomp
-    @rentals << Rental.new(date, @people[person_number], @books[book_number])
-    puts 'Rental created successfully'
+    print 'Date (YYYY-MM-DD): '
+    date_input = gets.chomp
+    return unless date_input.match(/^\d{4}-\d{2}-\d{2}$/)
+
+    begin
+      date = Date.parse(date_input)
+      @rentals << Rental.new(date, @people[person_number], @books[book_number])
+      puts 'Rental created successfully'
+    rescue ArgumentError
+      puts 'Invalid date format. Please use the format YYYY-MM-DD.'
+    end
   end
 
   def list_rentals
