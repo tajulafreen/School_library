@@ -1,9 +1,9 @@
-require './person.rb'
-require './book.rb'
-require './classroom.rb'
-require './student.rb'
-require './teacher.rb'
-require './rental.rb'
+require './person'
+require './book'
+require './classroom'
+require './student'
+require './teacher'
+require './rental'
 
 class App
   attr_accessor :people, :books, :rentals

@@ -1,4 +1,4 @@
-require './app.rb'
+require './app'
 
 def list_options
   'Please choose an option by entering a number:
