@@ -35,7 +35,7 @@ class App
       print 'Has parent permission? [Y/N]: '
       permission = gets[0].capitalize
       permission = permission == 'Y'
-      @people << Student.new(nil, age, name, permission)
+      @people << Student.new(nil, age, permission, name)
     when 2
       print 'Specialization: '
       specialization = gets.chomp
