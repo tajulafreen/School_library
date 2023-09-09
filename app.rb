@@ -7,12 +7,12 @@ require './teacher'
 require './rental'
 
 class App
-  attr_accessor :people, :books, :rentals
+  attr_accessor :people, :books, :rental
 
   def initialize
     @people = []
     @books = []
-    @rentals = []
+    @rental = []
   end
 
   def list_books
@@ -68,7 +68,7 @@ class App
 
     begin
       date = Date.parse(date_input)
-      @rentals << Rental.new(date, @people[person_number], @books[book_number])
+      @rental << Rental.new(date, @people[person_number], @books[book_number])
       puts 'Rental created successfully'
     rescue ArgumentError
       puts 'Invalid date format. Please use the format YYYY-MM-DD.'
@@ -79,7 +79,7 @@ class App
     print 'ID of person: '
     id = gets.chomp.to_i
     puts 'Rentals: '
-    @rentals.each do |rental|
+    @rental.each do |rental|
       puts "Date: #{rental.date}, Book: \"#{rental.book.title} by #{rental.book.author}\"" if rental.person.id == id
     end
   end
