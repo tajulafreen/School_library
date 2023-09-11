@@ -1,5 +1,5 @@
 require './app'
-require './optional.rb'
+require './optional'
 def list_options
   'Please choose an option by entering a number:
     1 - List of all books
