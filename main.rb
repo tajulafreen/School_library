@@ -1,5 +1,6 @@
 require './app'
 require './optional'
+
 def list_options
   'Please choose an option by entering a number:
     1 - List of all books
@@ -7,7 +8,7 @@ def list_options
     3 - Add a person
     4 - Create a book
     5 - Add a rental
-    6 - List of all rental for given id
+    6 - List of all rentals for a given ID
     7 - Exit'
 end
 
@@ -17,13 +18,14 @@ end
 
 def main
   app = App.new
+  option_handler = Option.new
 
   puts intro
 
   loop do
     puts list_options
     option = gets.chomp.to_i
-    Option.option(option, app)
+    option_handler.option(option, app)
   end
 end
 
