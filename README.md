@@ -66,11 +66,16 @@ Clone this repository to your desired folder:
 
 ## 👤 Author <a name="author"></a>
 
-👤 **Yonas Henok**
+👤 **Tajul Afreen**
 
 - GitHub: [Tajul Afreen](https://github.com/tajulafreen)
 - Twitter: [Tajul Afreen](https://www.twitter.com/tajulafreen)
 - LinkedIn: [Tajul Afreen](https://www.linkedin.com/in/tajul-afreen/)
+
+👤 **Yusuf Sholotan**
+
+- GitHub: [Yin-ka](https://github.com/yin-ka)
+- LinkedIn: [Yusuf Sholotan](https://www.linkedin.com/in/yusuf-sholotan/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
