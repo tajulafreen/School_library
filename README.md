@@ -28,6 +28,10 @@
 
 # 📖 school_library <a name="about-project"></a>
 
+[OOP School Library] Ruby School is a simple object-oriented program that models a school with students and teachers. It provides three classes:
+
+Person: the base class that represents a person with a name, an age, and an ID. It has a method to check if the person can use the school services based on their age and parent permission. Student: a subclass of Person that adds a classroom attribute and a method to play hooky. Teacher: a subclass of Person that adds a specialization attribute and overrides the can_use_services? method to always return true. The program demonstrates inheritance, encapsulation, and polymorphism in Ruby, and provides a simple API to create and manipulate persons, students, and teachers. It can be extended with additional features, such as more methods or attributes for the classes, or a user interface to interact with the program.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
